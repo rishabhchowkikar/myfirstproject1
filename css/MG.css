@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 20vh;
+    background:linear-gradient(to right, black,slateblue);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    text-align: center;
+}
+.logo{
+    width: 250px;
+    height: 152px;
+    border-radius: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+h2{
+    font-family: shrikhand;
+    font-size: 25px;
+}
+
+.container2{
+    width: 100%;
+    height: 160vh;
+    background-image: url(../assest/tom-barrett-hgGplX3PFBg-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.cols{
+    flex-basis: 50%;
+    justify-content: center;
+    text-align: center;
+}
+.red{
+    color: red;
+    font-family: shrikhand;
+}
+h1{
+    margin-top: 50px;
+    color: #fff;
+    font-size: 60px;
+    font-family: shrikhand;
+}
+.underline{
+    width: 19.5%;
+    height: 5px;
+    background: white;
+    border-radius: 3px;
+    position: relative;
+    top: 6px;
+    margin-left: 40.1%;
+    overflow: hidden;
+}
+.underline span{
+    width: 107px;
+    height: 100%;
+    background: red;
+    border-radius: 3px;
+    position: absolute;
+    top:0;
+    left: 30px;
+    animation-name: moving;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes moving{
+    0%{
+        left: -103px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+
+.last{
+    color: #fff;
+    font-size:20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: shrikhand;
+}
+
+.row{
+    
+    width: 90%;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.col{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: -6%;
+    line-height: 5px;
+    min-height: 20px;
+
+} .card{
+    width: 345px;
+    height: 300px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+    /* background-image: url(../asset/pexels-still-pixels-3699921.jpg); */
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+    transition: transform 0.5s;
+    object-position: 7px;
+    object-fit: contain;
+
+}
+
+.card:hover{
+    transform: translateY(-15px);
+}
+h3{
+    color: #fff;
+    margin-top: -8px;
+    margin-right: -12px;
+}
+a{
+    text-decoration: none;
+}
+.card h3{
+    padding-top: -3px;
+    font-family: shrikhanad;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+.card1{
+    background-image: url(https://i.pinimg.com/originals/f2/d6/ea/f2d6eac5ab8509bfedcd22b9cebb1dcc.jpg);
+    background-position: center;
+    background-size: 105%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.card2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbFjVLeRycnHEU99DKD1k2N0KH1f-XYOwo6KLyeL2AxVUOy5Vk5OfVPM6FNNG9Sbl-B1M&usqp=CAU);
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.card3{
+    background-image: url(https://s167.daydaynews.cc/?url=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F11326786792%2F1000);
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.card4{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/AEK-999_%28%C2%ABBarsuk%C2%BB%29_general_purpose_machine_gun.jpg/300px-AEK-999_%28%C2%ABBarsuk%C2%BB%29_general_purpose_machine_gun.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.card5{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Breda_30.jpg/600px-Breda_30.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.card6{
+    background-image: url(https://www.armedconflicts.com/attachments/3140/ds-39_02.jpg);
+    background-position: center;
+    background-size: 117%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.card6 h3{
+    color: black;
+}
+.card7{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/ff/LMG_24_29_2.JPG);
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.card8{
+    background-image: url(https://i0.wp.com/cms.sofrep.com/wp-content/uploads/2012/04/GAU-19-naval.jpg?fit=640%2C342&ssl=1);
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.card9{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cb/Hotchkiss-13.2mm-x2-AA-machine-gun-batey-haosef-2-1.jpg);
+    background-position: center;
+    background-size: 106%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position-y: -1px;
+}
+
+.card10{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/944/928/951/m2-browning-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: 106%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.card11{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/487/503/607/weapons-machine-gun-multicore-m134-minigun-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.card12{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Zastava_M84_machine_gun.jpg/1280px-Zastava_M84_machine_gun.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    
+}
+footer{
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -90px;
+
+}
+
+footer .social-icons,footer .menu{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0;
+      flex-wrap: wrap;
+}
+
+footer .social-icons li,footer .menu li{
+    list-style: none;
+}
+
+footer .social-icons li a
+{
+    font-size: 30px;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social-icons li a:hover{
+    transform: translateY(-10px);
+}
+
+footer .menu li a{
+    font-size: 20px;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer .menu li a:hover{
+    opacity: 1;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../assest/wave.png);  
+    background-size: 1000px 100px;
+}   
+
+footer .wave#wave1{
+    z-index: 1000;
+    bottom: 0;
+    opacity: 1;
+    animation: animatewave 4s linear infinite;
+}
+
+footer .wave#wave2{
+    z-index: 999;
+    bottom: 10px;
+    opacity: 0.5;
+    animation: animatewave_2 4s linear infinite;
+}
+
+footer .wave#wave3{
+    z-index: 1000;
+    bottom: 15px;
+    opacity: 0.2;
+    animation: animatewave 3s linear infinite;
+}
+
+footer .wave#wave4{
+    z-index: 999;
+    bottom: 20px;
+    opacity: 0.7;
+    animation: animatewave_2 3s linear infinite;
+}
+
+@keyframes animatewave {
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
+}
+
+@keyframes animatewave_2 {
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+footer h2{
+    font-family: shrikhand;
+    font-size: 20px;
+}
+
+select{
+    cursor: pointer;
+    border-radius: 25px;
+}

@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    min-height: 2000px;
+    pointer-events: none;
+    overflow-x: hidden;
+}
+.banner .container2{
+     position: relative;
+     z-index: 1;
+     margin: 0 auto;
+     text-align: center;
+     width: 100%;
+     height: 100%;
+     overflow-y: hidden;
+}
+
+.row{
+    
+    width: 70%;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.col{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: -6%;
+    line-height: 5px;
+    min-height: 20px;
+
+} 
+
+
+
+.cols{
+    flex-basis: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+    font-size: 60px;
+}
+.last{
+    color: #fff;
+    font-size:17px;
+}
+.card{
+    width: 345px;
+    height: 300px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+    /* background-image: url(../asset/pexels-still-pixels-3699921.jpg); */
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+    transition: transform 0.5s;
+    object-position: 7px;
+    object-fit: contain;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+}
+
+.card1{
+    background-image: url(../assest/wp5116901-m416-wallpapers.jpg);
+    background-position: center;
+}
+.card2{
+    background-image: url(../assest/wp6579768.jpg);
+    background-position: center;
+    background-size: 116%;
+    background-color: #966F33;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+.card3{
+    background-image: url(../assest/144560.jpg);
+    background-position: center;
+    background-size: 111%;
+}
+.card4{
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/026/682/819/large/aman-singh-screenshot004.jpg?1589434000);
+    background-position: center;
+    background-size: 124%;
+    background-position-x: -19px;
+}
+.card5{
+    background-image: url(../assest/wp6308394.jpg);
+    background-size: 99.9%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.card6{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/958/752/1001/weapons-machine-weapon-aug-steyr-hd-wallpaper-preview.jpg);
+    background-size: 387px;
+    background-repeat: no-repeat;
+    background-color:#966F33;
+}
+
+.card7{
+    background-image: url(https://i.pinimg.com/originals/87/93/40/8793409303acf5185bc0287cab279269.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.card8{
+    background-image: url(https://wallpapercave.com/wp/wp6637425.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #A47449;
+}
+.card9{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/663/157/248/weapons-heckler-and-koch-g36-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #A47449;   
+}
+.card10{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/366/62/368/cmmg-mk47-mutant-semi-auto-rifle-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.card11{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/547/834/389/weapons-assault-rifle-famas-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.card12{
+    background-image: url(https://i.pinimg.com/originals/2f/20/f3/2f20f3b8d5b9c1b365df47a7cf93e724.jpg);
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    padding-right: -9px;
+    background-color: forestgreen;
+}
+.card13{
+    background-image: url(https://www.ssbcrack.com/wp-content/uploads/2015/12/T91-Assault-Rifle.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.card14{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/230/15/688/weapons-machine-rifle-assault-wallpaper-thumb.jpg);
+    background-position: center;
+    background-size: 99%;
+    background-repeat: no-repeat;
+    background-position-y: 37px;
+    background-color: black;
+}
+.card15{
+    background-image: url(https://images5.alphacoders.com/384/384308.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.card16{
+    background-image: url(https://media.gettyimages.com/photos/carbine-assault-rifle-hangs-on-a-wall-during-preparations-for-the-picture-id484550439?k=20&m=484550439&s=612x612&w=0&h=-Lsqs2c1ml0ZbFWQcQgPob14-TbhTCABoNEkh28R9gw=);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #A47449;
+}
+a{
+    text-decoration: none;
+}
+
+.card h3{
+    padding-top: -3px;
+    font-family: shrikhanad;
+    letter-spacing: 2px;
+    font-size: x-large;
+}
+
+h3{
+    color: #fff;
+    margin-top: -8px;
+    
+}
